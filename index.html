@@ -41,16 +41,24 @@
 
 					<!-- Social Icons -->
 						<ul class="icons">
-							<li><a href="#https://twitter.com/JeffDav87676429" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-							<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+							<li><a href="https://twitter.com/JeffDav87676429" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="https://www.instagram.com/jeff.jrd.davis/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="https://github.com/jeffreyd1026" class="icon brands fa-github"><span class="label">Github</span></a></li>
 							<!-- <li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li> -->
-							<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+							<li><a href="#" onclick="copyText()" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
 						</ul>
 
 				</div>
 
 			</div>
+			<script>
+				function copyText() {
+		 
+					/* Copy selected text into clipboard */
+					navigator.clipboard.writeText("jrdavis2@wpi.edu");
+					alert("Email Address Copied to Clipboard");
+				}
+			</script>
 
 		<!-- Main -->
 			<div id="main">
